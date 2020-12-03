@@ -1,8 +1,9 @@
 #![allow(dead_code)]
 
-use a2::a22;
+use a3::a3;
 mod a2;
+mod a3;
 
 fn main() {
-    a22();
+    a3();
 }

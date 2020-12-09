@@ -1,6 +1,6 @@
 #![allow(dead_code)]
 
-use a8::*;
+use a9::*;
 mod a2;
 mod a3;
 mod a4;
@@ -8,8 +8,9 @@ mod a5;
 mod a6;
 mod a7;
 mod a8;
+mod a9;
 
 fn main() {
-    a8_1();
-    a8_2();
+    a9_1();
+    a9_2();
 }

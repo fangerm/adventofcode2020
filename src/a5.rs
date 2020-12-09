@@ -1,5 +1,5 @@
-use std::fs::read_to_string;
 use std::collections::HashSet;
+use std::fs::read_to_string;
 
 pub fn a5_1() {
     println!("{}", a5().into_iter().max().unwrap());

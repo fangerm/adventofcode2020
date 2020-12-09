@@ -1,5 +1,5 @@
+use std::collections::{HashMap, HashSet};
 use std::fs::read_to_string;
-use std::collections::{HashSet, HashMap};
 
 pub fn a6_1() {
     let mut answered = HashSet::<char>::with_capacity(26);
@@ -29,7 +29,10 @@ pub fn a6_2() {
                 counts.insert(char, count + 1);
             }
             let group_size = group.lines().count();
-            let count = counts.iter().filter(|(_, count)| **count == group_size).count();
+            let count = counts
+                .iter()
+                .filter(|(_, count)| **count == group_size)
+                .count();
             counts.clear();
             count
         })

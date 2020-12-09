@@ -1,11 +1,12 @@
 #![allow(dead_code)]
 
-use a4::*;
+use a5::*;
 mod a2;
 mod a3;
 mod a4;
+mod a5;
 
 fn main() {
-    a4_1();
-    a4_2();
+    a5_1();
+    a5_2();
 }
